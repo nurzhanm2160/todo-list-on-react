@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Тестовое задание на React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Инструкция
 
-## Available Scripts
+Установите зависимости с помощью команды:
 
-In the project directory, you can run:
+### `npm install`
+
+Чтобы запустить проект, используйте:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Открыть [http://localhost:3000](http://localhost:3000), чтобы увидеть в вашем браузере.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Тестовое задание
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ссылка на тестовое задание [тестовое задание](https://www.figma.com/file/ZFZf8Ly8NCLQnK27gkCDXF/Front-End-Test).
 
-### `npm run build`
+### Содержание задачи
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Средствами Angular реализуйте небольшое SPA приложение для создания и отслеживания статуса задач.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Каждая задача имеет:
+Заголовок задачи
+Дата завершения задачи
+Важность
+Описание задачи
+Теги
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Чтобы создать новую задачу, пользователю необходимо нажать кнопку “Новая задача”, после чего, он может заполнить поля новой задачи.
 
-### `npm run eject`
+Просмотр задачи, так же осуществляется в модальном окне, в котором тут же можно отредактировать задачу.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Закрытие задач происходит на страницах Мои задачи или Важны, путем нажатия на чекбокс.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Требования к функционалу:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Все действия на сайте должны происходить без перезагрузки страницы.
+Подтверждение действий (удалить заметку) выполняется с помощью  диалогового окна.
+Интерфейс должен отвечать требованиям usability.
+После перезагрузки страницы состояние списка задач должно сохраняться.
 
-## Learn More
+Технические требования:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Диалоговые окна должны быть реализованы без использования "alert", "prompt" и "confirm".
+В качестве языка разработки допускается использовать JavaScript или TypeScript.
+Верстка должна быть выполнена без использования UI библиотек (например Bootstrap).
+Адаптивность обязательна, придумайте самостоятельно, как это должно быть реализовано.
+Логика приложения должна быть разбита на разумное количество самодостаточных компонентов.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Особое внимание стоит обратить на следующие моменты:
 
-### Code Splitting
+Код должен быть написан понятно и аккуратно, с соблюдением табуляции и прочих элементов написания, без лишних элементов и функций, не имеющих отношения к функционалу тестового задания, снабжен понятными комментариями.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Читабельность и наличие элементарной архитектуры.
 
-### Analyzing the Bundle Size
+Чистота и оформление кода — не менее важный фактор. Код должен быть написан в едином стиле (желательно в рекомендуемом для конкретного языка). Также к чистоте относятся отсутствие копипаста и дублирования логики.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Тестовое задание должно быть предоставлено в следующем виде:
 
-### Making a Progressive Web App
+Ссылка на публичный репозиторий (GitHub, BitBucket, GitLab) с исходным кодом.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Для сохранения данных использовать LocalStorage
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Внимание!
+Если ваш стэк технологий отличается от предложенного. Напишите на своем, но в приоритете мы будем рассматривать кандидатов с требуемым стэком - Angular.
